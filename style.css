@@ -1,5 +1,5 @@
 @import url(https://fonts-online.ru/fonts/gilroy);
-
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap");
 
 * {
   margin: 0;
@@ -14,7 +14,6 @@ body {
 
 .container {
   display: grid;
-  border: 1px solid green;
   grid-template-columns: 247px 1fr 350px;
 }
 
@@ -183,9 +182,9 @@ label:hover {
   top: 10px;
   right: 10px;
   width: 29px;
-  height: 29px;border-radius: 4.14px;
+  height: 29px;
+  border-radius: 4.14px;
 }
-
 
 .description-card {
   text-align: start;
@@ -222,9 +221,9 @@ label:hover {
 
 .table-card {
   grid-column: 1 / 4;
-  /* grid-row: 9 / 13; */
   grid-row: 8 / 9;
   height: 300px;
+  margin-bottom: 45px;
 }
 
 :root {
@@ -339,6 +338,7 @@ td {
 }
 .name-title p {
   text-align: center;
+  color: rgba(207, 203, 229, 0.62);
 }
 
 .card-fwo-img {
@@ -350,6 +350,7 @@ td {
   width: 100%;
   height: 372px;
   justify-content: center;
+  margin-bottom: 46px;
 }
 .card-six {
   background-color: rgba(32, 30, 67, 1);
@@ -373,6 +374,7 @@ td {
   font-weight: 500;
   font-size: 14px;
   line-height: 16.48px;
+  color: rgba(207, 203, 229, 0.62);
 }
 
 .joe-card {
@@ -430,6 +432,7 @@ td {
 .left-col {
   display: grid;
   background-color: #201e43;
+  height: 1000px;
 }
 .nav-name {
   display: grid;
@@ -441,13 +444,13 @@ td {
 
 .main-title {
   display: grid;
-  margin-top: 45px;
+  margin-top: 10px;
   width: 100%;
   justify-content: end;
 }
 .main-title-two {
   display: grid;
-  margin-top: 34px;
+  margin-top: 50px;
   width: 100%;
   justify-content: end;
 }
@@ -483,6 +486,16 @@ td {
   width: 219px;
   height: 49px;
 }
+.block-poragrach p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17.66px;
+  color: rgba(114, 113, 144, 1);
+}
+.block-poragrach-two {
+  color: rgba(114, 113, 144, 1);
+  padding-left: 10px;
+}
 .left-title-two:hover {
   color: rgba(143, 125, 248, 1);
   background-color: rgba(126, 107, 239, 0.04);
@@ -500,19 +513,19 @@ td {
 .left-title-two-img {
   padding: 8px;
 }
-.bljck-poragrach {
-  padding-left: 10px;
-}
+
 .icon-pro {
   display: grid;
   align-items: center;
   justify-content: center;
 }
 .profile {
+  color: rgba(114, 113, 144, 1);
   font-weight: 500;
   font-size: 15px;
   line-height: 17.66px;
-  margin-top: 65px;
+  margin-top: 25px;
+  padding-top: 55px;
   padding-left: 38px;
 }
 .col-card-left {
@@ -520,12 +533,20 @@ td {
   justify-content: center;
   width: 100%;
   margin-top: 165px;
+  margin-bottom: 55px;
+}
+.col-leonard {
+  font-family: "Expletus Sans", sans-serif;
 }
 .card-left {
   width: 195px;
   height: 165px;
   border-radius: 15px;
-  background-color: blue;
+  background: linear-gradient(
+    to top,
+    rgba(134, 140, 255, 1),
+    rgba(67, 24, 255, 1)
+  );
 }
 .card-left h4 {
   font-weight: 500;
@@ -547,7 +568,9 @@ td {
   width: 163px;
   height: 35px;
   border-radius: 5px;
+  border: none;
   padding: 0 8px 0 8px;
+  color: rgba(68, 75, 248, 1);
 }
 .content {
   margin-top: 29px;
